@@ -1,0 +1,69 @@
+body{
+  margin-top: 60px;
+  margin-bottom : 130px;
+}
+
+.red-bg{
+  border-color: #C9302C !important;
+  border-radius: 5px;
+  background-color: #C9302C !important;
+}
+
+.thumb-scarpa:hover{
+  background-color: #d6ebfc;
+}
+
+.thumb-pic{
+  height: 220px !important;
+  width: 100%;
+}
+
+.wishlist{
+  background-color: #F8F8F8;
+  height :100px;
+  width: 100%;
+  max-width: 100%;
+  position:fixed;
+  top: calc(100% - 100px);
+  z-index : 0 !important;
+  overflow: visible;
+}
+
+
+
+.wish-img{
+  height: 80px;
+  width: 80px;
+
+}
+
+.wish-label{
+  background-color: #F8F8F8;
+  position: absolute;
+  top: -25px;
+  padding-left: 20px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-right-radius: 10px;
+}
+
+.wish-thumb{
+  display: inline-block;
+  margin: 10px;
+  margin-right: 0;
+  position: relative;
+
+}
+
+.wish-delete{
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 15px;
+  width: 15px;
+}
+
+.selected-el{
+  background-color: #d6ebfc !important;
+}
